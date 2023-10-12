@@ -1,0 +1,20 @@
+items:
+  - secretkey: POSTGRES
+    secretname: demo
+    property: POSTGRES
+
+  - secretkey: POSTGRES
+    secretname: demo
+    property: POSTGRES
+
+  - secretkey: POSTGRES
+    secretname: demo
+    property: POSTGRES
+
+  - secretkey: POSTGRES
+    secretname: demo
+    property: POSTGRES
+
+  - secretkey: POSTGRES
+    secretname: demo
+    property: POSTGRES 
