@@ -1,4 +1,3 @@
-serviceAccount:
-  annotations:
-    name: arn:aws:iam::548844171305:role/intern_eks-test-external-secrets-role  
+certController.serviceAccount.annotations: arn:aws:iam::548844171305:role/intern_eks-test-external-secrets-role  
+serviceAccount: 
   name: external-secrets-sa
