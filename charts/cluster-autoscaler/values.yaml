@@ -6,7 +6,7 @@ serviceAccount:
   annotations: 
     eks.amazonaws.com/role-arn: arn:aws:iam::548844171305:role/intern_eks-test-cluster-autoscaler-role
     # rbac.serviceAccount.name -- The name of the ServiceAccount to use. If not set and create is `true`, a name is generated using the fullname template.
-    name: cluster-autoscaler-sa  
+    name: "cluster-autoscaler-sa"  
 
 # autoscalingGroups: 
 #  - name: asg1
