@@ -2,6 +2,6 @@ autoDiscovery:
   clusterName: intern_eks-test
 
 autoscalingGroups: 
- - name: general-2023101608361524830000000f
+ - name: asg1
    maxSize: 3
    minSize: 2
