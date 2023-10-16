@@ -1,5 +1,5 @@
 autoDiscovery:
-  clusterName: intern_eks-test
+  clusterName: intern_eks-testtt
 
 serviceAccount:
     # rbac.serviceAccount.annotations -- Additional Service Account annotations.
