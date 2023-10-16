@@ -1,13 +1,5 @@
 autoDiscovery:
   clusterName: intern_eks-test
-rbac:
-  ## If true, create & use RBAC resources
-  ##
-  create: false
-
-  ## Ignored if rbac.create is true
-  ##
-  serviceAccountName: default
 
 # autoscalingGroups: 
 #  - name: asg1
