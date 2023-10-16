@@ -1,7 +1,7 @@
 autoDiscovery:
   clusterName: intern_eks-test
 
-autoscalingGroups: 
- - name: asg1
-   maxSize: 3
-   minSize: 1
+# autoscalingGroups: 
+#  - name: asg1
+#    maxSize: 3
+#    minSize: 1
