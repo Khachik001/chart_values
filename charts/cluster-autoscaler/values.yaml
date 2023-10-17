@@ -5,7 +5,8 @@ autoDiscovery:
 rbac:
 #   # rbac.create -- If `true`, create and use RBAC resources.
   serviceAccount:
-    create: false
+    create: true
+    name: "test"
 #     # rbac.serviceAccount.annotations -- Additional Service Account annotations.
 #     annotations: 
 #       eks.amazonaws.com/role-arn: arn:aws:iam::548844171305:role/intern_eks-test-cluster-autoscaler-role
