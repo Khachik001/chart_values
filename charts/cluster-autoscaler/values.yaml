@@ -14,6 +14,6 @@ rbac:
 #       # name: "cluster-autoscaler-sa"  
 # rbac.serviceAccount.name: "cluster-autoscaler-sa"
 autoscalingGroups: 
- - name: asg1
+ - name: general-20231017061707250500000010
    maxSize: 3
    minSize: 2
