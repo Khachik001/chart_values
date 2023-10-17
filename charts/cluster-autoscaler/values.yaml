@@ -3,14 +3,15 @@ autoDiscovery:
 
 
 rbac:
-  # rbac.create -- If `true`, create and use RBAC resources.
+#   # rbac.create -- If `true`, create and use RBAC resources.
   serviceAccount:
-    # rbac.serviceAccount.annotations -- Additional Service Account annotations.
-    annotations: 
-      eks.amazonaws.com/role-arn: arn:aws:iam::548844171305:role/intern_eks-test-cluster-autoscaler-role
-    # rbac.serviceAccount.name -- The name of the ServiceAccount to use. If not set and create is `true`, a name is generated using the fullname template.
-      # name: "cluster-autoscaler-sa"  
-rbac.serviceAccount.name: "cluster-autoscaler-sa"
+    create: false
+#     # rbac.serviceAccount.annotations -- Additional Service Account annotations.
+#     annotations: 
+#       eks.amazonaws.com/role-arn: arn:aws:iam::548844171305:role/intern_eks-test-cluster-autoscaler-role
+#     # rbac.serviceAccount.name -- The name of the ServiceAccount to use. If not set and create is `true`, a name is generated using the fullname template.
+#       # name: "cluster-autoscaler-sa"  
+# rbac.serviceAccount.name: "cluster-autoscaler-sa"
 # autoscalingGroups: 
 #  - name: asg1
 #    maxSize: 3
