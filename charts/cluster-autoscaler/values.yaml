@@ -13,7 +13,7 @@ rbac:
 #     # rbac.serviceAccount.name -- The name of the ServiceAccount to use. If not set and create is `true`, a name is generated using the fullname template.
 #       # name: "cluster-autoscaler-sa"  
 # rbac.serviceAccount.name: "cluster-autoscaler-sa"
-# autoscalingGroups: 
-#  - name: asg1
-#    maxSize: 3
-#    minSize: 2
+autoscalingGroups: 
+ - name: asg1
+   maxSize: 3
+   minSize: 2
