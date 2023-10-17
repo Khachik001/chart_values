@@ -4,3 +4,5 @@ serviceAccount:
   name: "karpenter-sa"
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::548844171305:role/intern_eks-test-cluster-karpenter-role
+
+aws.defaultInstanceProfile: "customer-mc-ec2-instance-profile"
