@@ -17,3 +17,6 @@ aws:
 
 domainFilters:
   - velvioo.brainscale.cloud
+serviceAccount:
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::548844171305:role/external_dns_role_name
