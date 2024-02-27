@@ -1,22 +1,22 @@
-# provider: aws
-# logLevel: info
+provider: aws
+logLevel: info
 
-# sources:
-#   - service
-#   - ingress
+sources:
+  - service
+  - ingress
 
-# policy: sync
+policy: sync
 
-# registry: txt
-# # R53Zone ID
-# txtOwnerId: velvio
+registry: txt
+# R53Zone ID
+txtOwnerId: velvio
 
-# aws:
-#   region: us-east-2
-#   zoneType: public
+aws:
+  region: us-east-2
+  zoneType: public
 
-# domainFilters:
-#   - velvioo.brainscale.cloud
+domainFilters:
+  - velvioo.brainscale.cloud
 serviceAccount:
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::548844171305:role/external_dns_role_name
