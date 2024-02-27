@@ -1,0 +1,19 @@
+provider: aws
+logLevel: info
+
+sources:
+  - service
+  - ingress
+
+policy: sync
+
+registry: txt
+# R53Zone ID
+txtOwnerId: velvio
+
+aws:
+  region: us-east-2
+  zoneType: public
+
+domainFilters:
+  - velvioo.brainscale.cloud
