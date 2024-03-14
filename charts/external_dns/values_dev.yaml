@@ -14,8 +14,7 @@ txtOwnerId: velvio
 aws:
   region: us-east-2
   zoneType: public
-tolerations:
-  tolerations: 
+tolerations: 
   - key: addonskey
     effect: NoSchedule
     operator: Exists
