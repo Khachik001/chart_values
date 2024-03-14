@@ -11,5 +11,5 @@ resources:
     memory: 256Mi
 tolerations: 
   - key: addonskey
-      effect: NoSchedule
-      operator: Exists
+    effect: NoSchedule
+    operator: Exists
