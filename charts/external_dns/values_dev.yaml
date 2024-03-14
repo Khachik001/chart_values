@@ -14,7 +14,11 @@ txtOwnerId: velvio
 aws:
   region: us-east-2
   zoneType: public
-
+tolerations:
+  tolerations: 
+  - key: addonskey
+    effect: NoSchedule
+    operator: Exists
 domainFilters:
   - velvioo.brainscale.cloud
 serviceAccount:
