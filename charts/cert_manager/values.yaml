@@ -13,3 +13,18 @@ tolerations:
   - key: addonskey
     effect: NoSchedule
     operator: Exists
+webhook:
+  tolerations: 
+  - key: addonskey
+    effect: NoSchedule
+    operator: Exists
+cainjector:
+  tolerations: 
+  - key: addonskey
+    effect: NoSchedule
+    operator: Exists
+startupapicheck:
+  tolerations: 
+  - key: addonskey
+    effect: NoSchedule
+    operator: Exists
