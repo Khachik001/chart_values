@@ -12,7 +12,7 @@ registry: txt
 txtOwnerId: velvio
 
 aws:
-  region: us-east-2
+  region: eu-central-1
   zoneType: public
 tolerations: 
   - key: addonskey
