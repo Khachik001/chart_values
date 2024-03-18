@@ -20,4 +20,3 @@ clusterIssuers:
                   effect: NoSchedule
                   operator: Exists
             class: nginx
-            ingressClassName: nginx
