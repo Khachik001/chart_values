@@ -13,4 +13,10 @@ clusterIssuers:
       solvers:
       - http01:
           ingress:
+            podTemplate:
+              spec: 
+                tolerations:
+                - key: addonskey
+                  effect: NoSchedule
+                  operator: Exists
             class: nginx
