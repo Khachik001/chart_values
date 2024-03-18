@@ -9,7 +9,7 @@ policy: sync
 
 registry: txt
 # R53Zone ID
-txtOwnerId: velvio
+txtOwnerId: velvio-dev
 
 aws:
   region: eu-central-1
